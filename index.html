@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <div class="content__hero-image">
+          <img
+            src="./images/corridor.jpg"
+            alt="Neon Future Corridor"
+            class="hero-image"
+          />
+          <div class="hero-image__logo">
+            <img
+              src="./images/odin-lined.png"
+              alt="The Odin Project logo (graphical face of viking)"
+              width="100px"
+            />
+            <p class="logo-text">ODIN</p>
+          </div>
+        </div>
+        <div class="content__">
+          <div class="headline">
+            <h1 class="sr-only">Sign-up Form</h1>
+            <p>
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+            </p>
+            <p>Sign up now to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+          </div>
+          <div class="form">
+            <form>
+              <p class="form__subheading">Let's do this!</p>
+
+              <div class="form-item">
+                <label for="first-name">First Name</label>
+                <input
+                  placeholder=" "
+                  size="25"
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="last-name">Last Name</label>
+                <input
+                  placeholder=" "
+                  size="25"
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="email">Email</label>
+                <input
+                  placeholder=" "
+                  size="25"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="password">Password</label>
+                <input
+                  minlength="8"
+                  placeholder=" "
+                  size="25"
+                  type="password"
+                  id="password"
+                  name="password"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <label for="pasword-confirm">Confirm Password</label>
+                <input
+                  minlength="8"
+                  placeholder=" "
+                  size="25"
+                  type="password"
+                  id="password-confirm"
+                  name="password-confirm"
+                  required
+                />
+              </div>
+              <input type="submit" id="submit-form" class="hidden" />
+            </form>
+          </div>
+          <div class="submission">
+            <label for="submit-form" tabindex="0" class="submit-input"
+              >Begin Your Journey</label
+            >
+            <p>
+              Already have an account?
+              <a class="log-in-link" href="#">Log in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
