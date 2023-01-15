@@ -219,6 +219,13 @@ label {
   padding-left: 0.5rem;
 }
 
+span[aria-label="required"] {
+  color: red;
+  margin-left: 3px;
+  font-size: 0.7rem;
+  vertical-align: top;
+}
+
 input:not(:placeholder-shown):valid {
   border: 2px solid #2eb966;
   outline: none;
