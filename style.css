@@ -167,7 +167,8 @@ img.hero-image {
   line-height: 1.2;
   font-weight: 600;
 
-  padding-block: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 
   background: linear-gradient(rgb(50, 25, 194), #624f82);
 }
