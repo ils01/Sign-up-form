@@ -38,7 +38,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -96,9 +96,7 @@ body {
   margin: 0;
   font-family: var(--ff-base);
   color: #fff;
-}
 
-body {
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -131,7 +129,7 @@ img.hero-image {
 
   height: 150px;
   position: relative;
-  bottom: 850px;
+  bottom: 90%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
